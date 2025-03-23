@@ -1,6 +1,6 @@
 import React from "react";
 
-const Item = ({ name, img, addToCart }) => {
+const Item = ({ name, img, addToCart, addToWishlist }) => {
   return (
     <div className="item">
       <img src={img} alt={name} />
